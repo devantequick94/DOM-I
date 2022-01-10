@@ -42,9 +42,16 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 console.log('project wired!')
 
 //Top Content
+const topContent = document.querySelector(".top-content")
+topContent.children[0].children[0].textContent = siteContent["main-content"]["features-h4"]
+topContent.children[0].children[1].textContent = siteContent["main-content"]["features-content"]
+topContent.children[1].children[0].textContent = siteContent["main-content"]["about-h4"]
+topContent.children[1].children[1].textContent = siteContent["main-content"]["about-content"]
+
+
 
 //Images
-const topContent = document.querySelector("#logo-img")
+const logoImg = document.querySelector("#logo-img")
 logoImg.src = siteContent.images["logo-img"]
 
 const ctaImg = document.querySelector("#cta-img")
