@@ -40,3 +40,22 @@ const siteContent = { // DO NOT CHANGE THIS OBJECT
 };
 
 console.log('project wired!')
+
+//Top Content
+
+//Images
+const topContent = document.querySelector("#logo-img")
+logoImg.src = siteContent.images["logo-img"]
+
+const ctaImg = document.querySelector("#cta-img")
+ctaImg.src = siteContent.images["cta-img"]
+
+const accImg = document.querySelector("#middle-img")
+accImg.src = siteContent.images["accent-img"]
+
+//Contact
+
+//Bottom Content
+
+//Footer
+
